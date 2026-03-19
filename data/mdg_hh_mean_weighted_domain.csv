@@ -1,0 +1,10 @@
+id,raw_mean,item,type,dom_id,dimension,score,id_original,i_weighted
+a.1,0.7622730504587155,Livelihood - Economic dependency,domain,1,Sensitivity,baseline,a.1,0.8236272394495413
+a.2,0.3326401376146789,Demographic ,domain,2,Sensitivity,baseline,a.2,0.3365135816513762
+a.3,0.6422018348623854,Cultural,domain,3,Sensitivity,baseline,a.3,0.6476376146788991
+a.4,0.40870489296636087,Health,domain,4,Sensitivity,baseline,a.4,0.38219744495412844
+b.1,0.5263761467889908,Learning,domain,5,Adaptive Capacity,baseline,b.1,0.488506880733945
+b.2,0.1974460244648318,Assets,domain,6,Adaptive Capacity,baseline,b.2,0.2305450766625798
+b.3,0.3482369266055046,Flexibility,domain,7,Adaptive Capacity,baseline,b.3,0.3447078733944954
+b.4,0.48241437308868507,Agency,domain,8,Adaptive Capacity,baseline,b.4,0.48318656880733946
+b.5,0.6836655963302752,Organization,domain,9,Adaptive Capacity,baseline,b.5,0.6846564188073395

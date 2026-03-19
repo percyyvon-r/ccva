@@ -1,0 +1,40 @@
+id,i_weighted,item,type,dom_id
+a.1.1,0.16362385321100914,Employment statuts,indicator,1
+a.1.2,0.31014825688073394,Percentage of catch from fishing sold,indicator,1
+a.1.3,0.3127720211009175,Percentage of income from the main activity,indicator,1
+a.1.4,0.03708310825688074,Time conducting the activity,indicator,1
+a.2.1,0.03772477064220184,Gender,indicator,2
+a.2.2,0.06491322018348625,Years living in the village,indicator,2
+a.2.3,0.09749510917431194,Percentage of children in the family members,indicator,2
+a.2.4,0.13638048165137615,Percentage Family dependency,indicator,2
+a.3.1,0.21472477064220186,Appreciation of biodiversity,indicator,3
+a.3.2,0.14779357798165135,Identity and pride,indicator,3
+a.3.3,0.2851192660550459,Appreciation of lifestyle,indicator,3
+a.4.1,0.06516697247706421,Age,indicator,4
+a.4.2,0.17248574770642203,Nutritional dependecy,indicator,4
+a.4.3,0.14454472477064217,Sense of place,indicator,4
+b.1.1,0.0559197247706422,Level of education,indicator,5
+b.1.2,0.25688073394495425,Knowledge of rules,indicator,5
+b.1.3,0.17570642201834863,Access to information,indicator,5
+b.2.1,0.05995100825688074,Material style of life,indicator,6
+b.2.2,0.15908715596330275,Community infrastructure,indicator,6
+b.2.3,0.011506912442396315,Access to credits,indicator,6
+b.3.1,0.1398913596330275,Livelihood multiplicity,indicator,7
+b.3.2,0.0905928899082569,Adapt to live without fishing,indicator,7
+b.3.3,0.039380733944954144,Gear,indicator,7
+b.3.4,0.07484288990825687,Spatial mobility,indicator,7
+b.4.1,0.19160091743119267,Perceived capacity,indicator,8
+b.4.2,0.1610642201834862,Recognition of causality,indicator,8
+b.4.3,0.13052143119266055,Level of participation,indicator,8
+b.5.1,0.2440644495412844,Trust in organizations,indicator,9
+b.5.2,0.23802316192660555,Community cohesion,indicator,9
+b.5.3,0.2025688073394495,Linking social capital,indicator,9
+a.1,0.27179698901834864,Livelihood - Economic dependency,domain,1
+a.2,0.07706161019816514,Demographic ,domain,2
+a.3,0.11527949541284403,Cultural,domain,3
+a.4,0.10051792802293578,Health,domain,4
+b.1,0.11773015825688073,Learning,domain,5
+b.2,0.044945997068807336,Assets,domain,6
+b.3,0.07859339513394496,Flexibility,domain,7
+b.4,0.07392754502752294,Agency,domain,8
+b.5,0.12529212464174314,Organization,domain,9

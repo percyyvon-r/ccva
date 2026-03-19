@@ -1,0 +1,10 @@
+Dimension,Domain,VIF
+Sensitivity,Livelihood,1.23
+Sensitivity,Demographic,1.18
+Sensitivity,Cultural,1.28
+Sensitivity,Health,1.32
+Adaptive Capacity,Learning,1.18
+Adaptive Capacity,Assets,1.12
+Adaptive Capacity,Flexibility,1.56
+Adaptive Capacity,Agency,1.11
+Adaptive Capacity,Organization,1.09

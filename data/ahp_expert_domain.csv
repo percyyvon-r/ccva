@@ -1,0 +1,10 @@
+dimension,id,domain,d_weight,d_weight_norm,type,dom_id
+Sensitivity,a.1,Livelihood - Economic dependency,33,0.33,domain,1
+Sensitivity,a.2,Demographic ,22.9,0.229,domain,2
+Sensitivity,a.3,Cultural,17.8,0.178,domain,3
+Sensitivity,a.4,Health,26.3,0.263,domain,4
+Adaptive Capacity,b.1,Learning,24.1,0.241,domain,5
+Adaptive Capacity,b.2,Assets,19.5,0.195,domain,6
+Adaptive Capacity,b.3,Flexibility,22.8,0.228,domain,7
+Adaptive Capacity,b.4,Agency,15.3,0.153,domain,8
+Adaptive Capacity,b.5,Organization,18.3,0.183,domain,9

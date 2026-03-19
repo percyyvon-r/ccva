@@ -1,0 +1,19 @@
+id,raw_mean,item,type,dom_id,dimension,dim_id,score,id_original,type_score,i_weight,d_weighted
+a.1_m,0.23772694954128448,Livelihood - Economic dependency,domain,1,Sensitivity,1,marginal,a.1,domain_marginal,33.0,5.820301098165136
+a.2_m,0.6673598623853211,Demographic ,domain,2,Sensitivity,1,marginal,a.2,domain_marginal,22.9,15.193838980183486
+a.3_m,0.35779816513761464,Cultural,domain,3,Sensitivity,1,marginal,a.3,domain_marginal,17.8,6.272050458715596
+a.4_m,0.5912951070336392,Health,domain,4,Sensitivity,1,marginal,a.4,domain_marginal,26.3,16.248207197706424
+b.1_m,0.4736238532110092,Learning,domain,5,Adaptive Capacity,2,marginal,b.1,domain_marginal,24.1,12.326984174311928
+b.2_m,0.8025539755351682,Assets,domain,6,Adaptive Capacity,2,marginal,b.2,domain_marginal,19.5,15.004371005079694
+b.3_m,0.6517630733944955,Flexibility,domain,7,Adaptive Capacity,2,marginal,b.3,domain_marginal,22.8,14.940660486605505
+b.4_m,0.5175856269113149,Agency,domain,8,Adaptive Capacity,2,marginal,b.4,domain_marginal,15.3,7.9072454972477075
+b.5_m,0.31633440366972476,Organization,domain,9,Adaptive Capacity,2,marginal,b.5,domain_marginal,18.3,5.770787535825687
+a.1,0.7622730504587155,Livelihood - Economic dependency,domain,1,Sensitivity,1,baseline,a.1,domain_baseline,33.0,27.17969890183486
+a.2,0.3326401376146789,Demographic ,domain,2,Sensitivity,1,baseline,a.2,domain_baseline,22.9,7.7061610198165145
+a.3,0.6422018348623854,Cultural,domain,3,Sensitivity,1,baseline,a.3,domain_baseline,17.8,11.527949541284405
+a.4,0.40870489296636087,Health,domain,4,Sensitivity,1,baseline,a.4,domain_baseline,26.3,10.051792802293576
+b.1,0.5263761467889908,Learning,domain,5,Adaptive Capacity,2,baseline,b.1,domain_baseline,24.1,11.773015825688073
+b.2,0.1974460244648318,Assets,domain,6,Adaptive Capacity,2,baseline,b.2,domain_baseline,19.5,4.495628994920306
+b.3,0.3482369266055046,Flexibility,domain,7,Adaptive Capacity,2,baseline,b.3,domain_baseline,22.8,7.859339513394495
+b.4,0.48241437308868507,Agency,domain,8,Adaptive Capacity,2,baseline,b.4,domain_baseline,15.3,7.392754502752293
+b.5,0.6836655963302752,Organization,domain,9,Adaptive Capacity,2,baseline,b.5,domain_baseline,18.3,12.529212464174314

@@ -1,0 +1,4 @@
+Variable,Coefficient,Std. Error,p-value,Odds Ratio,Signif.
+Intercept,-1.19,1.541,0.44,0.3,
+Sensitivity,-1.386,1.942,0.476,0.25,
+Adaptive Capacity,3.205,1.704,0.06,24.67,*

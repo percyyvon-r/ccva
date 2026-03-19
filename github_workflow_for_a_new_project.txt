@@ -1,0 +1,47 @@
+# 1. Create new project folder
+mkdir "C:\Users\percy\Documents\studies\visual_studio_code\new-project-name"
+cd "C:\Users\percy\Documents\studies\visual_studio_code\new-project-name"
+
+# 2. Initialize Git
+git init
+git remote add origin https://github.com/percyyvon-r/new-project-name.git
+
+# 3. Create virtual environment
+python -m venv .venv
+
+# 4. Activate it
+.\.venv\Scripts\Activate.ps1
+
+# 5. Install dependencies
+pip install pandas jupyter (or whatever you need)
+
+# 6. Create requirements.txt
+pip freeze > requirements.txt
+
+# 7. Create .gitignore (so .venv is not pushed)
+echo ".venv/" > .gitignore
+echo "__pycache__/" >> .gitignore
+
+# ----------------------------------------
+# Set up the GitHub remote (link it to your GitHub repository)
+git remote add origin https://github.com/percyyvon-r/new-project-name.git
+
+# Stage and commit your initial files
+git add .gitignore requirements.txt
+git commit -m "Initial project setup"
+git push -u origin master
+
+if one library is underlined in yellow
+For example
+scipy.stats
+python -m pip install scipy
+# quick sanity check
+import scipy
+print(scipy.__version__)
+
+sklearn.metrics
+python -m pip install scikit-learn
+
+matplotlib
+python -m pip install matplotlib
+

@@ -1,0 +1,41 @@
+#GLM (logistic regression)
+#all domains
+m1 <- glm(site ~ a_1_livelihood + a_2_demographic + a_3_cultural + a_4_health + b_1_learning + b_2_assets + b_3_flexibility + b_4_agency + b_5_organization, data = mdg_glm_b, family = binomial)
+m11 <- glm(site ~ a_1_livelihood + a_2_demographic + a_3_cultural + a_4_health + b_1_learning + b_2_assets + b_3_flexibility + b_4_agency + b_5_organization + a_sensitivity + b_adaptive_capacity, data = mdg_glm_b, family = binomial)
+summary(m11)
+m2 <- glm(site ~ a_1_livelihood  + b_2_assets + b_3_flexibility + b_4_agency + b_5_organization, data = mdg_glm_b, family = binomial)
+m21 <- glm(site ~ a_1_livelihood  + b_2_assets + b_3_flexibility + b_4_agency + b_5_organization + a_sensitivity + b_adaptive_capacity, data = mdg_glm_b, family = binomial)
+#ac se
+m3 <- glm(site ~ a_sensitivity + b_adaptive_capacity , data = mdg_glm_b, family = binomial)
+m4 <- glm(site ~ c_vulnerability, data = mdg_glm_b, family = binomial)
+#ac
+m5 <- glm(site ~ b_adaptive_capacity , data = mdg_glm_b, family = binomial)
+#se
+m6 <- glm(site ~ a_sensitivity , data = mdg_glm_b, family = binomial)
+summary(m1)
+summary(m2)
+summary(m3)
+summary(m4)
+summary(m5)
+summary(m6)
+summary(m21)
+tab_model(m1)
+#final_model
+tab_model(m2)
+tab_model(m3)
+tab_model(m4)
+plot_model(m2,type='pred')
+plot_model(m3,type='pred')
+plot_model(m4,type='pred')
+#compare anova
+anova(m6,m5,m3, test="Chisq")
+#gaussian
+m7 <- glm(c_vulnerability ~ a_1_livelihood + a_2_demographic + a_3_cultural + a_4_health + b_1_learning + b_2_assets + b_3_flexibility + b_4_agency + b_5_organization, data = mdg_glm_b, family = gaussian())
+summary(m7)
+tab_model(m7)
+m80 <- glm(c_vulnerability ~ a_1_livelihood, data = mdg_glm_b, family = gaussian())
+summary(m80)
+
+#binomial
+m8 <- glm(bin ~ a_1_livelihood + a_2_demographic + a_3_cultural + a_4_health + b_1_learning + b_2_assets + b_3_flexibility + b_4_agency + b_5_organization, data = mdg_glm_b, family = binomial)
+summary(m8)

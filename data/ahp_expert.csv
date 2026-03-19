@@ -1,0 +1,42 @@
+dimension,id,id_original,indicator,i_weight,i_weight_norm,type,dom_id,total_indicator,total_domain
+Sensitivity,a.1.1,a.1.1,Employment statuts,17.4,0.174,indicator,1,4,0
+Sensitivity,a.1.2,a.1.2,Percentage of catch from fishing sold,32.4,0.324,indicator,1,4,0
+Sensitivity,a.1.3,a.1.3,Percentage of income from the main activity,33.8,0.338,indicator,1,4,0
+Sensitivity,a.1.4,a.1.4,Time conducting the activity,16.4,0.164,indicator,1,4,0
+Sensitivity,a.2.1,a.2.1,Gender,25.7,0.257,indicator,2,4,0
+Sensitivity,a.2.2,a.2.2,Years living in the village,22,0.22,indicator,2,4,0
+Sensitivity,a.2.3,a.2.3,Percentage of children in the family members,23.3,0.233,indicator,2,4,0
+Sensitivity,a.2.4,a.2.4,Percentage Family dependency,29,0.29,indicator,2,4,0
+Sensitivity,a.3.1,a.3.1,Appreciation of biodiversity,30.2,0.302,indicator,3,3,0
+Sensitivity,a.3.2,a.3.2,Identity and pride,31.9,0.319,indicator,3,3,0
+Sensitivity,a.3.3,a.3.3,Appreciation of lifestyle,37.9,0.379,indicator,3,3,0
+Sensitivity,a.4.1,a.4.1,Age,20.8,0.208,indicator,4,3,0
+Sensitivity,a.4.2,a.4.2,Nutritional dependecy,55.1,0.551,indicator,4,3,0
+Sensitivity,a.4.3,a.4.3,Sense of place,24.1,0.241,indicator,4,3,0
+Adaptive Capacity,b.1.1,b.1.1,Level of education,37.8,0.378,indicator,5,3,0
+Adaptive Capacity,b.1.2,b.1.2,Knowledge of rules,28,0.28,indicator,5,3,0
+Adaptive Capacity,b.1.3,b.1.3,Access to information,34.2,0.342,indicator,5,3,0
+Adaptive Capacity,b.2.1,b.2.1,Material style of life,33.4,0.334,indicator,6,3,0
+Adaptive Capacity,b.2.2,b.2.2,Community infrastructure,43.9,0.439,indicator,6,3,0
+Adaptive Capacity,b.2.3,b.2.3,Access to credits,22.7,0.227,indicator,6,3,0
+Adaptive Capacity,b.3.1,b.3.1,Livelihood multiplicity,41.4,0.414,indicator,7,4,0
+Adaptive Capacity,b.3.2,b.3.2,Adapt to live without fishing,19.7,0.197,indicator,7,4,0
+Adaptive Capacity,b.3.3,b.3.3,Gear,20.2,0.202,indicator,7,4,0
+Adaptive Capacity,b.3.4,b.3.4,Spatial mobility,18.7,0.187,indicator,7,4,0
+Adaptive Capacity,b.4.1,b.4.1,Perceived capacity,36.4,0.364,indicator,8,3,0
+Adaptive Capacity,b.4.2,b.4.2,Recognition of causality,30.8,0.308,indicator,8,3,0
+Adaptive Capacity,b.4.3,b.4.3,Level of participation,32.8,0.328,indicator,8,3,0
+Adaptive Capacity,b.5.1,b.5.1,Trust in organizations,33.9,0.339,indicator,9,3,0
+Adaptive Capacity,b.5.2,b.5.2,Community cohesion,34.1,0.341,indicator,9,3,0
+Adaptive Capacity,b.5.3,b.5.3,Linking social capital,32,0.32,indicator,9,3,0
+Sensitivity,a.1,a.1,Livelihood - Economic dependency,33,0.33,domain,1,0,4
+Sensitivity,a.2,a.2,Demographic ,22.9,0.229,domain,2,0,4
+Sensitivity,a.3,a.3,Cultural,17.8,0.178,domain,3,0,4
+Sensitivity,a.4,a.4,Health,26.3,0.263,domain,4,0,4
+Adaptive Capacity,b.1,b.1,Learning,24.1,0.241,domain,5,0,5
+Adaptive Capacity,b.2,b.2,Assets,19.5,0.195,domain,6,0,5
+Adaptive Capacity,b.3,b.3,Flexibility,22.8,0.228,domain,7,0,5
+Adaptive Capacity,b.4,b.4,Agency,15.3,0.153,domain,8,0,5
+Adaptive Capacity,b.5,b.5,Organization,18.3,0.183,domain,9,0,5
+Sensitivity,a,a,Sensitivity,100,1,dimension,0,0,0
+Adaptive Capacity,b,b,Adaptive Capacity,100,1,dimension,0,0,0

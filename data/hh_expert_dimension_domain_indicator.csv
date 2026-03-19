@@ -1,0 +1,83 @@
+id,raw_mean,item,type,dom_id,dimension,dim_id,score,id_original,type_score,i_weight,i_weighted
+a_m,0.46354502102446493,Sensitivity,dimension,10,Sensitivity,1,marginal,a,dimension_marginal,100.0,43.53439773477064
+b_m,0.5523721865443425,Adaptive Capacity,dimension,11,Adaptive Capacity,2,marginal,b,dimension_marginal,100.0,55.95004869907052
+a,0.5364549789755351,Sensitivity,dimension,10,Sensitivity,1,baseline,a,dimension_baseline,100.0,56.46560226522936
+b,0.4476278134556575,Adaptive Capacity,dimension,11,Adaptive Capacity,2,baseline,b,dimension_baseline,100.0,44.04995130092948
+a.1_m,0.23772694954128448,Livelihood - Economic dependency,domain,1,Sensitivity,1,marginal,a.1,domain_marginal,33.0,5.820301098165136
+a.2_m,0.6673598623853211,Demographic ,domain,2,Sensitivity,1,marginal,a.2,domain_marginal,22.9,15.193838980183486
+a.3_m,0.35779816513761464,Cultural,domain,3,Sensitivity,1,marginal,a.3,domain_marginal,17.8,6.272050458715596
+a.4_m,0.5912951070336392,Health,domain,4,Sensitivity,1,marginal,a.4,domain_marginal,26.3,16.248207197706424
+b.1_m,0.4736238532110092,Learning,domain,5,Adaptive Capacity,2,marginal,b.1,domain_marginal,24.1,12.326984174311928
+b.2_m,0.8025539755351682,Assets,domain,6,Adaptive Capacity,2,marginal,b.2,domain_marginal,19.5,15.004371005079694
+b.3_m,0.6517630733944955,Flexibility,domain,7,Adaptive Capacity,2,marginal,b.3,domain_marginal,22.8,14.940660486605505
+b.4_m,0.5175856269113149,Agency,domain,8,Adaptive Capacity,2,marginal,b.4,domain_marginal,15.3,7.9072454972477075
+b.5_m,0.31633440366972476,Organization,domain,9,Adaptive Capacity,2,marginal,b.5,domain_marginal,18.3,5.770787535825687
+a.1,0.7622730504587155,Livelihood - Economic dependency,domain,1,Sensitivity,1,baseline,a.1,domain_baseline,33.0,27.17969890183486
+a.2,0.3326401376146789,Demographic ,domain,2,Sensitivity,1,baseline,a.2,domain_baseline,22.9,7.7061610198165145
+a.3,0.6422018348623854,Cultural,domain,3,Sensitivity,1,baseline,a.3,domain_baseline,17.8,11.527949541284405
+a.4,0.40870489296636087,Health,domain,4,Sensitivity,1,baseline,a.4,domain_baseline,26.3,10.051792802293576
+b.1,0.5263761467889908,Learning,domain,5,Adaptive Capacity,2,baseline,b.1,domain_baseline,24.1,11.773015825688073
+b.2,0.1974460244648318,Assets,domain,6,Adaptive Capacity,2,baseline,b.2,domain_baseline,19.5,4.495628994920306
+b.3,0.3482369266055046,Flexibility,domain,7,Adaptive Capacity,2,baseline,b.3,domain_baseline,22.8,7.859339513394495
+b.4,0.48241437308868507,Agency,domain,8,Adaptive Capacity,2,baseline,b.4,domain_baseline,15.3,7.392754502752293
+b.5,0.6836655963302752,Organization,domain,9,Adaptive Capacity,2,baseline,b.5,domain_baseline,18.3,12.529212464174314
+a.1.1_m,0.059633027522935755,Employment statuts,indicator,1,Sensitivity,1,marginal,a.1.1,indicator_marginal,17.4,0.34241284403669714
+a.1.2_m,0.042752293577981604,Percentage of catch from fishing sold,indicator,1,Sensitivity,1,marginal,a.1.2,indicator_marginal,32.4,0.4571075229357793
+a.1.3_m,0.07463899082568803,Percentage of income from the main activity,indicator,1,Sensitivity,1,marginal,a.1.3,indicator_marginal,33.8,0.8325233036697243
+a.1.4_m,0.7738834862385321,Time conducting the activity,indicator,1,Sensitivity,1,marginal,a.1.4,indicator_marginal,16.4,4.188257427522935
+a.2.1_m,0.8532110091743119,Gender,indicator,2,Sensitivity,1,marginal,a.2.1,indicator_marginal,25.7,5.021402752293578
+a.2.2_m,0.7049399082568808,Years living in the village,indicator,2,Sensitivity,1,marginal,a.2.2,indicator_marginal,22.0,3.5514872577981653
+a.2.3_m,0.5815660550458714,Percentage of children in the family members,indicator,2,Sensitivity,1,marginal,a.2.3,indicator_marginal,23.3,3.1030619999082565
+a.2.4_m,0.5297224770642202,Percentage Family dependency,indicator,2,Sensitivity,1,marginal,a.2.4,indicator_marginal,29.0,3.5178869701834863
+a.3.1_m,0.28899082568807344,Appreciation of biodiversity,indicator,3,Sensitivity,1,marginal,a.3.1,indicator_marginal,30.2,1.5534990825688073
+a.3.2_m,0.536697247706422,Identity and pride,indicator,3,Sensitivity,1,marginal,a.3.2,indicator_marginal,31.9,3.0474743119266057
+a.3.3_m,0.24770642201834858,Appreciation of lifestyle,indicator,3,Sensitivity,1,marginal,a.3.3,indicator_marginal,37.9,1.6710770642201833
+a.4.1_m,0.686697247706422,Age,indicator,4,Sensitivity,1,marginal,a.4.1,indicator_marginal,20.8,3.756508623853212
+a.4.2_m,0.6869587155963304,Nutritional dependecy,indicator,4,Sensitivity,1,marginal,a.4.2,indicator_marginal,55.1,9.954924835321101
+a.4.3_m,0.40022935779816515,Sense of place,indicator,4,Sensitivity,1,marginal,a.4.3,indicator_marginal,24.1,2.5367737385321107
+b.1.1_m,0.8520642201834863,Level of education,indicator,5,Adaptive Capacity,2,marginal,b.1.1,indicator_marginal,37.8,7.762134633027523
+b.1.2_m,0.08256880733944949,Knowledge of rules,indicator,5,Adaptive Capacity,2,marginal,b.1.2,indicator_marginal,28.0,0.5571743119266052
+b.1.3_m,0.4862385321100917,Access to information,indicator,5,Adaptive Capacity,2,marginal,b.1.3,indicator_marginal,34.2,4.007675229357798
+b.2.1_m,0.8205059633027523,Material style of life,indicator,6,Adaptive Capacity,2,marginal,b.2.1,indicator_marginal,33.4,5.343955338990826
+b.2.2_m,0.6376146788990826,Community infrastructure,indicator,6,Adaptive Capacity,2,marginal,b.2.2,indicator_marginal,43.9,5.4583004587155965
+b.2.3_m,0.9493087557603687,Access to credits,indicator,6,Adaptive Capacity,2,marginal,b.2.3,indicator_marginal,22.7,4.2021152073732715
+b.3.1_m,0.6620981651376148,Livelihood multiplicity,indicator,7,Adaptive Capacity,2,marginal,b.3.1,indicator_marginal,41.4,6.249677000366973
+b.3.2_m,0.5401376146788991,Adapt to live without fishing,indicator,7,Adaptive Capacity,2,marginal,b.3.2,indicator_marginal,19.7,2.4260821100917433
+b.3.3_m,0.805045871559633,Gear,indicator,7,Adaptive Capacity,2,marginal,b.3.3,indicator_marginal,20.2,3.707719266055046
+b.3.4_m,0.5997706422018348,Spatial mobility,indicator,7,Adaptive Capacity,2,marginal,b.3.4,indicator_marginal,18.7,2.5571821100917433
+b.4.1_m,0.4736238532110092,Perceived capacity,indicator,8,Adaptive Capacity,2,marginal,b.4.1,indicator_marginal,36.4,2.6377059633027526
+b.4.2_m,0.47706422018348627,Recognition of causality,indicator,8,Adaptive Capacity,2,marginal,b.4.2,indicator_marginal,30.8,2.248117431192661
+b.4.3_m,0.6020688073394496,Level of participation,indicator,8,Adaptive Capacity,2,marginal,b.4.3,indicator_marginal,32.8,3.0214221027522936
+b.5.1_m,0.2800458715596329,Trust in organizations,indicator,9,Adaptive Capacity,2,marginal,b.5.1,indicator_marginal,33.9,1.7373205733944945
+b.5.2_m,0.3019848623853211,Community cohesion,indicator,9,Adaptive Capacity,2,marginal,b.5.2,indicator_marginal,34.1,1.8844761367431193
+b.5.3_m,0.3669724770642202,Linking social capital,indicator,9,Adaptive Capacity,2,marginal,b.5.3,indicator_marginal,32.0,2.1489908256880734
+a.1.1,0.9403669724770642,Employment statuts,indicator,1,Sensitivity,1,baseline,a.1.1,indicator_baseline,17.4,5.399587155963302
+a.1.2,0.9572477064220184,Percentage of catch from fishing sold,indicator,1,Sensitivity,1,baseline,a.1.2,indicator_baseline,32.4,10.23489247706422
+a.1.3,0.925361009174312,Percentage of income from the main activity,indicator,1,Sensitivity,1,baseline,a.1.3,indicator_baseline,33.8,10.321476696330276
+a.1.4,0.22611651376146788,Time conducting the activity,indicator,1,Sensitivity,1,baseline,a.1.4,indicator_baseline,16.4,1.223742572477064
+a.2.1,0.14678899082568808,Gender,indicator,2,Sensitivity,1,baseline,a.2.1,indicator_baseline,25.7,0.8638972477064221
+a.2.2,0.29506009174311926,Years living in the village,indicator,2,Sensitivity,1,baseline,a.2.2,indicator_baseline,22.0,1.4865127422018347
+a.2.3,0.4184339449541285,Percentage of children in the family members,indicator,2,Sensitivity,1,baseline,a.2.3,indicator_baseline,23.3,2.2326380000917436
+a.2.4,0.4702775229357798,Percentage Family dependency,indicator,2,Sensitivity,1,baseline,a.2.4,indicator_baseline,29.0,3.1231130298165137
+a.3.1,0.7110091743119266,Appreciation of biodiversity,indicator,3,Sensitivity,1,baseline,a.3.1,indicator_baseline,30.2,3.8221009174311926
+a.3.2,0.463302752293578,Identity and pride,indicator,3,Sensitivity,1,baseline,a.3.2,indicator_baseline,31.9,2.6307256880733947
+a.3.3,0.7522935779816514,Appreciation of lifestyle,indicator,3,Sensitivity,1,baseline,a.3.3,indicator_baseline,37.9,5.0751229357798175
+a.4.1,0.31330275229357796,Age,indicator,4,Sensitivity,1,baseline,a.4.1,indicator_baseline,20.8,1.7138913761467889
+a.4.2,0.3130412844036697,Nutritional dependecy,indicator,4,Sensitivity,1,baseline,a.4.2,indicator_baseline,55.1,4.536375164678899
+a.4.3,0.5997706422018348,Sense of place,indicator,4,Sensitivity,1,baseline,a.4.3,indicator_baseline,24.1,3.80152626146789
+b.1.1,0.14793577981651376,Level of education,indicator,5,Adaptive Capacity,2,baseline,b.1.1,indicator_baseline,37.8,1.347665366972477
+b.1.2,0.9174311926605505,Knowledge of rules,indicator,5,Adaptive Capacity,2,baseline,b.1.2,indicator_baseline,28.0,6.190825688073395
+b.1.3,0.5137614678899083,Access to information,indicator,5,Adaptive Capacity,2,baseline,b.1.3,indicator_baseline,34.2,4.234524770642203
+b.2.1,0.1794940366972477,Material style of life,indicator,6,Adaptive Capacity,2,baseline,b.2.1,indicator_baseline,33.4,1.1690446610091743
+b.2.2,0.3623853211009174,Community infrastructure,indicator,6,Adaptive Capacity,2,baseline,b.2.2,indicator_baseline,43.9,3.1021995412844037
+b.2.3,0.05069124423963134,Access to credits,indicator,6,Adaptive Capacity,2,baseline,b.2.3,indicator_baseline,22.7,0.2243847926267281
+b.3.1,0.3379018348623853,Livelihood multiplicity,indicator,7,Adaptive Capacity,2,baseline,b.3.1,indicator_baseline,41.4,3.189522999633027
+b.3.2,0.4598623853211009,Adapt to live without fishing,indicator,7,Adaptive Capacity,2,baseline,b.3.2,indicator_baseline,19.7,2.0655178899082567
+b.3.3,0.19495412844036697,Gear,indicator,7,Adaptive Capacity,2,baseline,b.3.3,indicator_baseline,20.2,0.897880733944954
+b.3.4,0.40022935779816515,Spatial mobility,indicator,7,Adaptive Capacity,2,baseline,b.3.4,indicator_baseline,18.7,1.706417889908257
+b.4.1,0.5263761467889908,Perceived capacity,indicator,8,Adaptive Capacity,2,baseline,b.4.1,indicator_baseline,36.4,2.9314940366972477
+b.4.2,0.5229357798165137,Recognition of causality,indicator,8,Adaptive Capacity,2,baseline,b.4.2,indicator_baseline,30.8,2.4642825688073393
+b.4.3,0.39793119266055044,Level of participation,indicator,8,Adaptive Capacity,2,baseline,b.4.3,indicator_baseline,32.8,1.9969778972477066
+b.5.1,0.7199541284403671,Trust in organizations,indicator,9,Adaptive Capacity,2,baseline,b.5.1,indicator_baseline,33.9,4.4663794266055055
+b.5.2,0.6980151376146789,Community cohesion,indicator,9,Adaptive Capacity,2,baseline,b.5.2,indicator_baseline,34.1,4.355823863256881
+b.5.3,0.6330275229357798,Linking social capital,indicator,9,Adaptive Capacity,2,baseline,b.5.3,indicator_baseline,32.0,3.707009174311927

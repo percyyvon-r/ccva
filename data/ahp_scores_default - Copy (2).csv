@@ -1,0 +1,42 @@
+dimension,id,indicator,i_weight,type,dom_id,dim_id
+Sensitivity,a.1.1,Employment statuts,25,indicator,1,1
+Sensitivity,a.1.2,Percentage of catch from fishing sold,25,indicator,1,1
+Sensitivity,a.1.3,Percentage of income from the main activity,25,indicator,1,1
+Sensitivity,a.1.4,Time conducting the activity,25,indicator,1,1
+Sensitivity,a.2.1,Gender,25,indicator,2,1
+Sensitivity,a.2.2,Years living in the village,25,indicator,2,1
+Sensitivity,a.2.3,Percentage of children in the family members,25,indicator,2,1
+Sensitivity,a.2.4,Percentage Family dependency,25,indicator,2,1
+Sensitivity,a.3.1,Appreciation of biodiversity,33.33,indicator,3,1
+Sensitivity,a.3.2,Identity and pride,33.33,indicator,3,1
+Sensitivity,a.3.3,Appreciation of lifestyle,33.33,indicator,3,1
+Sensitivity,a.4.1,Age,33.33,indicator,4,1
+Sensitivity,a.4.2,Nutritional dependecy,33.33,indicator,4,1
+Sensitivity,a.4.3,Sense of place,33.33,indicator,4,1
+Adaptive Capacity,b.1.1,Level of education,33.33,indicator,5,2
+Adaptive Capacity,b.1.2,Knowledge of rules,33.33,indicator,5,2
+Adaptive Capacity,b.1.3,Access to information,33.33,indicator,5,2
+Adaptive Capacity,b.2.1,Material style of life,33.33,indicator,6,2
+Adaptive Capacity,b.2.2,Community infrastructure,33.33,indicator,6,2
+Adaptive Capacity,b.2.3,Access to credits,33.33,indicator,6,2
+Adaptive Capacity,b.3.1,Livelihood multiplicity,25,indicator,7,2
+Adaptive Capacity,b.3.2,Adapt to live without fishing,25,indicator,7,2
+Adaptive Capacity,b.3.3,Gear,25,indicator,7,2
+Adaptive Capacity,b.3.4,Spatial mobility,25,indicator,7,2
+Adaptive Capacity,b.4.1,Perceived capacity,33.33,indicator,8,2
+Adaptive Capacity,b.4.2,Recognition of causality,33.33,indicator,8,2
+Adaptive Capacity,b.4.3,Level of participation,33.33,indicator,8,2
+Adaptive Capacity,b.5.1,Trust in organizations,33.33,indicator,9,2
+Adaptive Capacity,b.5.2,Community cohesion,33.33,indicator,9,2
+Adaptive Capacity,b.5.3,Linking social capital,33.33,indicator,9,2
+Sensitivity,a.1,Livelihood - Economic dependency,25,domain,1,1
+Sensitivity,a.2,Demographic ,25,domain,2,1
+Sensitivity,a.3,Cultural,25,domain,3,1
+Sensitivity,a.4,Health,25,domain,4,1
+Adaptive Capacity,b.1,Learning,20,domain,5,2
+Adaptive Capacity,b.2,Assets,20,domain,6,2
+Adaptive Capacity,b.3,Flexibility,20,domain,7,2
+Adaptive Capacity,b.4,Agency,20,domain,8,2
+Adaptive Capacity,b.5,Organization,20,domain,9,2
+Sensitivity,a,Sensitivity,100,dimension,10,1
+Adaptive Capacity,b,Adaptive Capacity,100,dimension,10,2

@@ -1,0 +1,50 @@
+# Load data
+ahp_default = pd.read_csv(
+    "C:/Users/percy/Documents/studies/visual_studio_code/ccva/data/ahp_scores_default.csv"
+)
+# Domain
+# Filter type == domain 
+ahp_default_domain = ahp_default[ahp_default["type"] == "domain"]
+
+# Rename "i_weight" to "d_weight" for domain df
+ahp_default_domain = ahp_default_domain.rename(columns={"i_weight": "d_weight"})
+
+# Join domain weights back to the main dataframe
+ahp_default_domain = pd.merge(
+    ahp_default,
+    ahp_default_domain[["dom_id", "d_weight"]],
+    on="dom_id",
+    how="left"
+)
+
+# Attribute values for 
+
+# Dimension
+# Filter type == dimension 
+ahp_default_dimension = ahp_default[ahp_default["type"] == "dimension"]
+
+# Rename "i_weight" to "d_weight" for domain df
+ahp_default_dimension = ahp_default_dimension.rename(columns={"i_weight": "dim_weight"})
+
+# Join domain weights back to the main dataframe
+ahp_default_dimension = pd.merge(
+    ahp_default_domain,
+    ahp_default_dimension[["dim_id", "dim_weight"]],
+    on="dim_id",
+    how="left"
+)
+
+# For 'indicator' rows: multiply d_weight and i_weight / 100
+# For 'domain' and 'dimension' rows: keep d_weight
+
+ahp_default_dimension["i_weighted"] = np.where(
+    ahp_default_dimension["type"] == "indicator",
+    ahp_default_dimension["d_weight"] * ahp_default_dimension["i_weight"] / 100,
+    ahp_default_dimension["d_weight"]
+)
+
+# display the resulting dataframe
+print(ahp_default_dimension.head())
+
+# save the resulting dataframe to a new CSV file
+ahp_default_dimension.to_csv("C:/Users/percy/Documents/studies/visual_studio_code/ccva/data/ahp_scores_default_bis.csv", index=False)
