@@ -1,4 +1,4 @@
-# Climate Change Vulnerability Assessment (CCVA) - YPINB Notebook
+# Climate Change Vulnerability Assessment (CCVA) - Small Scale Fishers in Madagascar
 
 ## Overview
 
